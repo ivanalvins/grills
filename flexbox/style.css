@@ -1,0 +1,122 @@
+:root{
+	--color-1:#E63946;
+	--color-2:#F1FAEE;
+	--color-3:#A8DADC;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 767px) {
+	.container{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.color-1{
+		background-color: #E63946;
+		height: 1000px;
+		width: 100%;
+	}
+
+	.color-2{
+		background-color: #F1FAEE;
+		height: 1000px;
+		width: 100%;
+	}
+
+	.color-3{
+		background-color: #A8DADC;
+		height: 1000px;
+		width: 100%;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.container {
+	    display: flex;
+	    width: 100%;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+
+	.color-1{
+		background-color: #E63946;
+		height: 50vh;
+		width: 100%;
+	}
+
+	.color-2{
+		background-color: #F1FAEE;
+		height: 1000px;
+		width: 50%;
+	}
+
+	.color-3{
+		background-color: #A8DADC;
+		height: 1000px;
+		width: 50%;
+	}
+}
+
+@media only screen  and (min-width : 1025px) and (max-device-width : 1823px) {
+	.container {
+	    display: flex;
+	    width: 1025px;
+	    margin: 0 auto;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+
+	.color-1{
+		background-color: #E63946;
+		height: 50vh;
+		width: 100%;
+	}
+
+	.color-2{
+		background-color: #F1FAEE;
+		height: 50vh;
+		width: 50%;
+	}
+
+	.color-3{
+		background-color: #A8DADC;
+		height: 50vh;
+		width: 50%;
+	}
+}
+
+@media only screen  and (min-width : 1824px) {
+	.container{
+		display: flex;
+	    width: 1025px;
+	    margin: 0 auto;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+
+	.color-1{
+		background-color: #E63946;
+		height: 50vh;
+		width: 100%;
+	}
+
+	.color-2{
+		background-color: #F1FAEE;
+		height: 50vh;
+		width: 50%;
+	}
+
+	.color-3{
+		background-color: #A8DADC;
+		height: 50vh;
+		width: 50%;
+	}
+}
